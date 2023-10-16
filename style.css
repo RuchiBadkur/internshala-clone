@@ -55,9 +55,11 @@ nav{
  }
 
  .sidebar{
-    position: fixed;
+    /* position: fixed; */
+    position: absolute;
     top: 135px;
-    z-index: 999;
+    z-index: -999;
+    /* z-index: 999; */
  }
 
  aside{
